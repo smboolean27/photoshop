@@ -1,0 +1,30 @@
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $textColor;
+  font-size: $fontNormal;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  margin: 80px 0;
+}
+
+// Mix
+.container {
+  margin: 0 auto;
+  max-width: $normalContainer;
+
+  &.container--small {
+    max-width: $smallContainer;
+  }
+}
+
+.text-center {
+  text-align: center;
+}

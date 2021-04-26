@@ -2,6 +2,10 @@
   display: flex;
   align-items: center;
 
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+
   // modificatore
   &.box--reverse {
     flex-direction: row-reverse;
@@ -14,6 +18,10 @@
   &__image {
     width: 60%;
 
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+
     > img {
       width: 100%;
     }
@@ -21,6 +29,10 @@
 
   &__text {
     width: 40%;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
   }
 
   a {
